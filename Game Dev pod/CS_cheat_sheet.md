@@ -63,17 +63,20 @@ Xavier - What is a Function? When is it useful to use them?
 A pre-made set of code that you can re-use.
 
 Maximus - What is a Loop? Define both a For-Loop and a While-Loop.
-A loop is a control structure that reapeats block of instructions until specfic condittion is met
+A loop is a control structure that reapeats block of instructions until specfic a condition is met.
 
-A for loop is a control flow statement in coding that allows a specfic block of code to be excuted repeadlty, A while loop is a control flow statment that repeadlty excutes a block of code as long as specified boolean ondition remains true
+A for loop is a block of code that takes the items in a list and prints those items seperatly for a certain amount of time, A while loop is a block of code repeats code for as long as a certain condition is true.
 
 Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example of a type of bug/error that can occur in code. A bug is a probelm in a code that can be big or small, its called a bug because a mans device was not woring and it turned out to have a literal bug in it. A common bug could be putting the same thing twice but not the same same. For example if you put class:english  you have to put it EXACTLY like that, you can't put class:English.
 
 Isaiah - What is a Class? What is an Object?
+A class is the instructions for an object dictating what actions the object can perform and the data it has. An object is the actions that the class allowed it to do.
 
 Tay - What is a Library?
+A library is simply a collection of prewritten code thats can be used instead of having to write all the code yourself.
 
 Braylen - What is a List? What are the rules surrounding a list?
+A list is a collection of multiple values in a specific order, the rules surrounding a list involve holding multiple values, being ordered, and each item having an index, and said items can be accessed using their index. Some lists are immutable but most aren't.
 
 Jarmuari - What are the Arithmetic Operators? What do each do? Write a sample line of code that uses one of these operators
 
@@ -90,6 +93,8 @@ My definiton: giving the Operator there symbols with in the code and eqautions.
 Ja'Den - What is Version Control? What version control system have we been using? Why is version control useful? Version control is a system that records changes to files over time so that specific versions can be recalled later. A Version Control system we uses it github. Version Control is useful because it keeps a history of changes.
 
 Joseph - What is Syntax? Given an example of proper Python syntax for creating a variable. Now do it using wrong Python syntax.
+start here future me
+
 
 Darren - What is a Programming Language? Why do multiple programming languages exist? Give 5 examples of programming Languages.
 
