@@ -93,7 +93,7 @@ My definiton: giving the Operator there symbols with in the code and eqautions.
 Ja'Den - What is Version Control? What version control system have we been using? Why is version control useful? Version control is a system that records changes to files over time so that specific versions can be recalled later. A Version Control system we uses it github. Version Control is useful because it keeps a history of changes.
 
 Joseph - What is Syntax? Given an example of proper Python syntax for creating a variable. Now do it using wrong Python syntax.
-start here future me
+Syntax is pretty much the grammer of a programming language, proper python syntax would be print("Hello world"), as python requires the text to be written like that for it to actually be printed/written whereas if it was written as pritn "hello world" would be improper due to not only the miss spelled print but also the added space and lace of ().
 
 
 Darren - What is a Programming Language? Why do multiple programming languages exist? Give 5 examples of programming Languages.
@@ -102,7 +102,8 @@ Darren- 5 different programing languages are Java, JavaScript, python, switft, p
 
 Walter - What is a Comment? Are comments mandatory in code? Why do programmers use them? Write a comment for this line of python code explaining what the code is doing --> myName = "Devon"
 
-
+A comment is like a note meant for people to read not the computer, as the computer is actually meant to completely look over it. programmers use them to communicate (or remind themselves or others) different things either to themselves or fellow programmers who are also working on the code. 
+the code is assigning the variable myName the name Devon --> myName = "Devon"
 
 
 
@@ -139,3 +140,18 @@ polymorphism: Same action name, different behavior
 
 Kauri - What are the Comparison Operators? What do each of them mean? What is the Assignment Operator? What does it do?
 Comparison Operators are used to compare two values
+
+== means equal to
+
+!= means not equal to
+
+> means greater than
+
+< means less then
+
+>= means greater than or equal to
+
+<= means less than or equal to
+
+
+the assignment operator is = and it gives a variable a certain value for example points = 4, would mean the variable points has a value of four.
