@@ -1,14 +1,14 @@
-body { font-family: system-ui, Arial; background:#f4f4f4; margin:0; }
+body { font-family: system-ui, Arial; background:#070202; margin:0; }
 
-.app { max-width: 720px; margin: 24px auto; background:white; padding:16px; border-radius:12px; }
+.app { max-width: 720px; margin: 24px auto; background:rgb(25, 176, 151); padding:16px; border-radius:12px; }
 
-.chat { height: 320px; overflow:auto; border:1px solid #ddd; padding:12px; border-radius:12px; background:#fafafa; }
+.chat { height: 320px; overflow:auto; border:1px solid #b50000; padding:12px; border-radius:12px; background:#fafafa; }
 
 .msg { padding:10px 12px; margin:8px 0; border-radius:12px; max-width: 80%; }
 
-.user { background:#d8ecff; margin-left:auto; }
+.user { background:#ecaf1f; margin-left:auto; }
 
-.bot { background:#eaeaea; margin-right:auto; }
+.bot { background:#ecaf1f; margin-right:auto; }
 
 .form { display:flex; gap:8px; margin-top:12px; }
 
