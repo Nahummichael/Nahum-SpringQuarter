@@ -16,7 +16,7 @@ struct session1: View {
             Text("Nahum Michael")
             
             
-            Image("fbasketball")
+            Image("better pic")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 300, height: 150)
