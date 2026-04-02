@@ -37,6 +37,6 @@ struct session2: View {
     }
 }
 
-/*#Preview {
-    session2()
-}*/
+#Preview {
+ session2()
+}
