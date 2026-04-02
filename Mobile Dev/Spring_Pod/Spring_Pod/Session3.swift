@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct session2: View {
+struct session3: View {
     var body: some View {
         VStack{
             Text("I am goated")
@@ -9,7 +9,6 @@ struct session2: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 300, height: 150)
-                .cornerRadius(70.0)
             
             HStack{
                 Text("this basketball is quite hot")
@@ -38,5 +37,5 @@ struct session2: View {
 }
 
 #Preview {
- session2()
+ session3()
 }
