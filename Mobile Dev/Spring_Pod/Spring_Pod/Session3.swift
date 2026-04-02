@@ -4,14 +4,20 @@ struct session3: View {
     var body: some View {
         VStack{
             Text("I am goated")
+                .font(.largeTitle)
+                .foregroundColor(.blue)
             
             Image("better pic")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 300, height: 150)
-            
+        }
             HStack{
                 Text("this basketball is quite hot")
+                    .padding(.leading, 10)
+                    .font(.headline)
+                    .background(Color.white)
+                    .shadow(color: .gray, radius: 5, x:5, y:3)
                 
                 Image("fbasketball")
                     .resizable()
@@ -32,7 +38,7 @@ struct session3: View {
                     .offset(x: 12, y: 50)
             }
             
-        }
+        
     }
 }
 
