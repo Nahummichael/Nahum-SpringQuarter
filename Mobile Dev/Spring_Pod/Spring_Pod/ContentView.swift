@@ -25,7 +25,7 @@ struct session1: View {
                 
             
             
-            Text("I am born in Oakland, and raised in Pinole, I proud of who i am, and what makes me. I have an interest in both video games and video game creation, and so i aspire to be able to create my own game at some point in the future.")
+            Text("I am born in Oakland, and raised in Pinole, I proud of who I am, and what makes me. I have an interest in both video games and video game creation, and so I aspire to be able to create my own game at some point in the future.")
             
             
             
