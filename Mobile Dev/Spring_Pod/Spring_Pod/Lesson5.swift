@@ -7,44 +7,38 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct LocationView: View {
     var body: some View {
         
-        
-       
-            NavigationStack{
-                VStack() {
-                    
-                    NavigationLink(){
-                        session1()
-                    } label: {
-                        VStack{
-                            Image("whoiam")
-                            Text("click the pic")
-                                .font(.caption)
-                        }
-                        
-                       
-                        
-                        }}
+        NavigationStack {
+            
+            VStack {
                 
-                    Spacer()
-                    
-                    
-                    
-                    
-                    
-                        .navigationTitle(Text("Redirection"))
-                        .navigationBarTitleDisplayMode(.inline)
-                    
+                // First link (image + text)
+                NavigationLink {
+                    session1()
+                } label: {
+                    VStack {
+                        Image("whoiam")
+                        Text("click the pic")
+                            .font(.caption)
+                    }
+                }
+                
+                // Second link (simple text)
+                NavigationLink("Fav Media") {
+                    FavMedia()
                 }
                 
             }
+            .navigationTitle("Redirection")
+            .navigationBarTitleDisplayMode(.inline)
             
+        }
         
     }
-
+}
 
 #Preview {
-    NavigationView()
+    LocationView()
 }
