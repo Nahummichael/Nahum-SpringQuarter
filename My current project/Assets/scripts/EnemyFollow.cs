@@ -27,6 +27,8 @@ public class EnemyFollow : MonoBehaviour
         if (player != null)
         {
             Destroy(collision.gameObject);
+
+            UIManager.Instance.Invoke("GameOver", 1f);
         }
     }
 }

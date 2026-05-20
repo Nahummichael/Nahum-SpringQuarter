@@ -19,5 +19,12 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput); // Calculate the direction the player sgould move based on the input
         rb.AddForce(movement*movementSpeed*Time.deltaTime, ForceMode.Impulse);
+
+// check if the player fell off the map
+    if (transform.position.y <= -5)
+        {
+            UIManager.Instance.Invoke("GameOver", 1f);
+        }
     }
+
 }
